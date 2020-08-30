@@ -2,11 +2,12 @@
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
-  row-gap: 0.25em;
-  margin-bottom: 2em;
-  padding: 2em;
+  // row-gap: 0.25em;
+  // margin-bottom: 2em;
+  // padding: 2em;
   max-width: $maxContainerWidth;
   margin: 0 auto;
+  height: 100%;
 }
 
 .main-message {
@@ -24,7 +25,8 @@
 
 .main-subtitle {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 18px
 }
 
 .main-photo {
@@ -34,13 +36,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("../assets/main-photo.svg") no-repeat top;
-  background-size: 100% 100%;
-  height: 100%;
-  padding: 0;
-  width: 100%;
-  max-width: 50rem;
-  margin: 0 auto;
+  // background: url("../assets/rigel-main.png") no-repeat top;
+  // background-size: 100% 100%;
+  // height: 100%;
+  // padding: 0;
+  // width: 100%;
+  // max-width: 50rem;
+  // margin: 0 auto;
 }
 
 @include breakpoint("from-tablet-l") {

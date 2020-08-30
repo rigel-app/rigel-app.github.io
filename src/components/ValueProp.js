@@ -4,16 +4,23 @@ import Button from "./Button";
 const ValueProp = props => {
 
   return (
-    <section className="value-prop">
+    // <section className="value-prop">
       <div className="value-prop-content">
         <div className="main-message">
-          <h1>Here is our amazing product</h1>
-          <p className="main-subtitle">Please buy our amazing product. You&apos;re gonna love it. Promise.</p>
-          <Button label="Get Started" />
+          <h1>Discover New Things with Rigel</h1>
+          <p className="main-subtitle"> <b>Rigel</b> gives you access to <b>thousands of</b> articles, essays, interviews, podcasts and much more related to different topics from the <b>most renown magazines in the world</b>.
+          <br /> <br />
+          Everything from a <b>single app</b>.</p>
+          <br />
+          <div style={{ display: 'flex', width: '100%', justifyContent:'center'}}>
+            <Button label="Join the Beta (TestFlight)" />
+          </div>
         </div>
-        <div className="main-photo"></div>
+      <div className="main-photo">
+        <img style={{height:'80%'}} src={require("../assets/rigel-main.png")}/>
+        </div>
       </div>
-    </section>
+    // </section>
   )
 };
 

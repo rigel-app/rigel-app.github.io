@@ -24,19 +24,28 @@ const Header = ({ siteTitle }) => {
       <Backdrop activeClass={backdropClass} click={toggle} />
       <nav className="navbar">
         <div className="nav-belt">
-          <div>
-            <h4>
+          <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
+
+            {/* 
+              <h4>
               <Link className="logo" to="/" >
                 <div className="logo-image"></div>     
                 {siteTitle}
               </Link>
-            </h4>
+              </h4> */}
+            
+              <div className="logo-image"></div>
+              <h2>
+
+                {siteTitle}
+              </h2>
+            
           </div>
           <ul className={navClasses}>
-            <li className={navItemClasses}><a href="#">About</a></li>
+            {/* <li className={navItemClasses}><a href="#">About</a></li>
             <li className={navItemClasses}><a href="#">Pricing</a></li>
-            <li className={navItemClasses}><a href="#">Login</a></li>
-            <li className={`${navItemClasses} nav-item-bold`} ><a href="#">Sign Up</a></li>
+            <li className={navItemClasses}><a href="#">Login</a></li> */}
+            {/* <li className={`${navItemClasses} nav-item-bold`} ><a href="#">Join the Beta</a></li> */}
           </ul>
           <div className={burgerClass} onClick={toggle}>
             <div className="burger-line-1"></div>

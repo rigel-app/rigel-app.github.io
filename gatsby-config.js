@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Landing`,
-    description: `Clean and modern landing page starter template for your next saas project launch.`,
-    siteUrl: `https://www.gatsby-landing-page-starter.com`,
-    author: `@btahir`,
+    title: `Rigel`,
+    description: `Discover New Things with Rigel.`,
+    siteUrl: `https://rigelapp.com`,
+    author: `@tommycarpi`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,7 +26,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#675CE2`,
         display: `standalone`,
-        icon: `src/assets/logo.svg`, // This path is relative to the root of the site.
+        icon: `src/assets/logo.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-offline`,
