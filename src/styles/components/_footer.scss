@@ -1,11 +1,11 @@
 .footer {
-  background-color: $textColor;
+  background-color: $backgroundColor;
 }
 
 .footer-belt {
   display: flex;
   height: 6vh;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 0 1em;
   max-width: $maxContainerWidth;

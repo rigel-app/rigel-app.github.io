@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
         <main className="container-main">
           <ValueProp />
         </main>
-        {/* <Footer siteTitle={data.site.siteMetadata.title} /> */}
+        <Footer siteTitle={data.site.siteMetadata.title} />
       </div>
     </>
   )
