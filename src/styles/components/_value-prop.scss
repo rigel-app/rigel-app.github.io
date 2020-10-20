@@ -7,7 +7,7 @@
   // padding: 2em;
   max-width: $maxContainerWidth;
   margin: 0 auto;
-  height: 100%;
+  height: 92vh;
 }
 
 .main-message {
@@ -26,7 +26,8 @@
 .main-subtitle {
   font-size: 1.5rem;
   font-weight: 400;
-  font-size: 18px
+  font-size: 18px;
+  margin:0;
 }
 
 .main-photo {
@@ -36,13 +37,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // background: url("../assets/rigel-main.png") no-repeat top;
-  // background-size: 100% 100%;
-  // height: 100%;
-  // padding: 0;
-  // width: 100%;
-  // max-width: 50rem;
-  // margin: 0 auto;
+  background: url("../assets/rigel-main.svg") no-repeat top;
+  background-size: 80% 80%;
+  height: 100%;
+  padding: 0;
+  width: 100%;
+  max-width: 50rem;
+  margin: 0;
 }
 
 @include breakpoint("from-tablet-l") {

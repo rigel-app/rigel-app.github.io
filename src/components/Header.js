@@ -47,11 +47,11 @@ const Header = ({ siteTitle }) => {
             <li className={navItemClasses}><a href="#">Login</a></li> */}
             {/* <li className={`${navItemClasses} nav-item-bold`} ><a href="#">Join the Beta</a></li> */}
           </ul>
-          <div className={burgerClass} onClick={toggle}>
+          {/* <div className={burgerClass} onClick={toggle}>
             <div className="burger-line-1"></div>
             <div className="burger-line-2"></div>
             <div className="burger-line-3"></div>
-          </div>
+          </div> */}
         </div>
       </nav>
     </header>
