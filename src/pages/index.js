@@ -83,7 +83,7 @@ const IndexPage = () => {
               </div>
             </div>
 
-            <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+            <main class="flex-col justify-items-start mx-auto max-w-7xl px-4 sm:px-6 lg:mt-10 lg:pl-20">
               <div class="sm:text-center lg:text-left">
                 <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl py-3">
                   <span class="font-sans block xl:inline">Discover New Things with Rigel </span>
@@ -103,13 +103,13 @@ const IndexPage = () => {
 
                     <a target='_blank' href="https://apps.apple.com/it/app/rigel/id1521924790" class="font-sans w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary md:py-4 md:text-lg md:px-10">
                       <img style={{ height: 25, margin: 0, padding: 0, marginRight: 10 }} class="" src={require('../assets/icons/apple-white.png')} />
-                      <p style={{ margin: 0, padding: 0 }} class="">iOS</p>
+                      <p style={{ margin: 0, padding: 0 }} class="">Rigel for iOS</p>
                     </a>
                   </div>
                   <div class="mt-3 sm:mt-0 sm:ml-3">
                     <a target='_blank' href="https://play.google.com/store/apps/details?id=com.rigel" class="font-sans w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary md:py-4 md:text-lg md:px-10">
                       <img style={{ height: 25, margin: 0, padding: 0, marginRight: 10 }} class="" src={require('../assets/icons/android-white.png')} />
-                      <p style={{ margin: 0, padding: 0 }} class="">Android</p>
+                      <p style={{ margin: 0, padding: 0 }} class="">Rigel for Android</p>
                     </a>
                   </div>
                 </div>
