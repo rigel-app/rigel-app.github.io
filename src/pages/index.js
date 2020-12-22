@@ -10,7 +10,7 @@ const IndexPage = () => {
 
   return (
     <html class="dark">
-      <div class="relative bg-white dark:bg-darkbackg overflow-hidden w-screen h-full lg:h-screen md:h-screen">
+      <div class="relative bg-white dark:bg-darkbackg overflow-scroll w-screen h-full">
         <div class=" h-full mx-auto"> {/*max-w-7xl*/}
           <div class="relative z-10 pb-8 h-full sm:pb-16 md:pb-20 lg:w-1/2"> {/*lg:pb-28 xl:pb-32*/}
             {/* <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white dark:text-darkbackg transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
@@ -83,7 +83,7 @@ const IndexPage = () => {
               </div>
             </div>
 
-            <main class="flex-col flex justify-center mx-auto h-full px-4 sm:px-6  lg:pl-20">
+            <main class="flex-col flex justify-center mx-auto h-full px-4 sm:px-6 pt-8 lg:pl-20">
               <div class="md:text-center lg:text-left lg:w-full">
                 <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl py-3">
                   {/* <span class="font-sans block xl:inline"> How much time do you spend on Social Media? </span> */}
