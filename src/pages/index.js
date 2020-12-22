@@ -10,14 +10,14 @@ const IndexPage = () => {
 
   return (
     <html class="dark">
-      <div class="relative bg-white dark:bg-darkbackg overflow-hidden w-screen h-full">
-        <div class="max-w-7xl h-full mx-auto">
-          <div class="relative z-10 pb-8 h-full sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+      <div class="relative bg-white dark:bg-darkbackg overflow-hidden w-screen h-full lg:h-screen md:h-screen">
+        <div class=" h-full mx-auto"> {/*max-w-7xl*/}
+          <div class="relative z-10 pb-8 h-full sm:pb-16 md:pb-20 lg:w-1/2"> {/*lg:pb-28 xl:pb-32*/}
             {/* <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white dark:text-darkbackg transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
               <polygon class="" points="50,0 100,0 50,100 0,100" />
             </svg> */}
 
-            <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+            <div class="relative pt-6 px-4 sm:px-6 lg:px-16">
               <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
                 <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div class="flex items-center justify-between w-full md:w-auto">
@@ -83,21 +83,24 @@ const IndexPage = () => {
               </div>
             </div>
 
-            <main class="flex-col justify-items-start mx-auto max-w-7xl px-4 sm:px-6 lg:mt-10 lg:pl-20">
+            <main class="flex-col flex justify-center mx-auto h-full px-4 sm:px-6  lg:pl-20">
               <div class="md:text-center lg:text-left lg:w-full">
                 <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl py-3">
-                  <span class="font-sans block xl:inline">Discover New Things with Rigel </span>
+                  {/* <span class="font-sans block xl:inline"> How much time do you spend on Social Media? </span> */}
+                  {/* <span class="font-sans block xl:inline"> In the time you spend on Social Media you could read 200 books </span> */}
+                  <span class="font-sans block xl:inline"> How much time do you spend on Social Media? </span>
                   {/* <span class="font-sans block text-indigo-600 xl:inline">online business</span> */}
                 </h1>
-                <p class="font-sans mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  <b>Rigel</b> collects <b>cultural articles</b> and <b>videos</b> from the most renown sources in the world.
-                {/* <br />Everything accessible from a single app. */}
+                <p class="font-sans mt-3 text-base text-gray-300 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                  In a year, as much time as you'd spend <b>reading 200 books</b>!
                   <br />
-                  <br />We do the <b>search</b>.
-                  <br />We do the <b>validation.</b>
-                  <br />We do the <b>provisioning</b>.
-                  <br />You just <b>enjoy</b> it.
-          </p>
+                  <br />What if you could <b>nurture your mind</b> or <b>interests</b> instead?
+                  <br />
+                  {/* <br />We've designed <b>Rigel</b> to collect <b>articles, videos & podcasts</b> from the most renowned sources about <b>cultural topics</b>.
+                  <br /> */}
+                  <br /><b>Rigel</b> collects articles, videos and podcasts about History, Science, Technology and more topics to easily access them <b>whenever you want</b>.
+                  {/* <br />Just take your time to enjoy them: Rigel is not about News and its content <b>does not become old overnight</b>. */}
+              </p>
                 <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div class="rounded-md shadow">
 
