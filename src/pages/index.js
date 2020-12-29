@@ -10,7 +10,7 @@ const IndexPage = () => {
 
   return (
     <html class="dark">
-      <div class="relative bg-white dark:bg-darkbackg overflow-scroll w-screen h-full">
+      <div class="relative bg-white dark:bg-darkbackg overflow-y-auto w-screen h-full">
         <div class=" h-full mx-auto"> {/*max-w-7xl*/}
           <div class="relative z-10 pb-8 h-full sm:pb-16 md:pb-20 lg:w-1/2"> {/*lg:pb-28 xl:pb-32*/}
             {/* <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white dark:text-darkbackg transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
