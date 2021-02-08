@@ -17,9 +17,14 @@ module.exports = {
           dark: '#4597d8',
         },
         darkbackg: {
-          light: '#1f2023',
-          DEFAULT: '#1f2023',
-          dark: '#1f2023',
+          light: '#131313',
+          DEFAULT: '#131313',
+          dark: '#131313',
+        },
+        blogbackg: {
+          light: '#000',
+          DEFAULT: '#000',
+          dark: '#000',
         },
       }
     }
