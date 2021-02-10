@@ -1,6 +1,6 @@
 ---
 title: Never Give Up, Always Pivot - a Startup Story
-author: Tommaso
+author: Alberto
 date: 2021-02-08
 ---
 
