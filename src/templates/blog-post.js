@@ -13,9 +13,11 @@ export default function BlogPost({ data }) {
   const [hideNav, setHideNav] = useState(false)
   
   const calculateScroll = () => {
-    if (prevScrollY.current.scrollTop >= scrollTop && !hideNav) {
+    if (prevScrollY.current.scrollTop >= scrollTop && !hideNav && prevScrollY.current.scrollTop > 200) {
+      // console.log("DOWN",prevScrollY.current.scrollTop)
       setHideNav(true)
     } else if (prevScrollY.current.scrollTop < scrollTop && hideNav) {
+      // console.log("UP",prevScrollY.current.scrollTop)
       setHideNav(false)
     }
     setScrollTop(prevScrollY.current.scrollTop)
