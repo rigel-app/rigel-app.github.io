@@ -13,7 +13,7 @@ My name is [<u>**Alberto**</u>](https://www.linkedin.com/in/alberto-tanara-394a7
 I’ve always loved reading and learning new stuff since I was a kid, but only in that precise moment I realized how much things have changed over time.  
 In ten years from now I’ll probably rewrite the previous sentence with: “I’ve always loved scrolling Social Media feeds, watching some unknown people’s stories and laughing at mindless (but still funny, I must admit) memes”. 
 
-In fact, the article demonstrated in a very simple but clear way how the average time we spend on social media in a year would be enough to read 200 books. An astonishing figure, especially if we think about the problems related to misinformation and fake news that characterize our time: **how would the world be if everyone would read 200 books a year?**  
+In fact, the article demonstrated in a very simple but clear way how the average time we spend on social media in a year would be enough to read 200 books. An astonishing figure, especially if we think about the problems related to misinformation and fake news that characterize our time: **how would the world be if everyone read 200 books a year?**  
 
 Well, I started thinking something had to be done about it, but I needed help.  
 [<u>**Tommaso**</u>](https://twitter.com/tommycarpi) is a Software Engineer with a strong passion for technology and all startup related stuff.  
@@ -65,7 +65,7 @@ We shared this survey in any way we could (friends, social media and blogs) and 
 
 <h3 class="font-sans text-primary">5. Birth of Rigel</h3>
 
-While we were getting ready to begin the second and operative phase of the work Covid-19 came along, and we found ourselves stuck at home during Italy’s spring 2020 lockdown. The curious thing is that we had NEVER met to work together before (we used to meet only in the office during the more that unusual coffee breaks that we manage to snatch from our work routine), so the lockdown didn’t disrupt much our work but gave us the opportunity to dedicate even more time to our project instead.  
+While we were getting ready to begin the second and operative phase of the work Covid-19 came along, and we found ourselves stuck at home during Italy’s spring 2020 lockdown. The curious thing is that we had NEVER met to work together before (we used to meet only in the office during the coffee breaks that we managed to snatch from our work routine), so the lockdown didn’t disrupt much our work but gave us the opportunity to dedicate even more time to our project instead.  
 
 During this time, **I selected about 200 sources** for articles and videos from the web to be included in the app, while **Tommy set up the whole app’s architecture and layout.**  
 As the work proceeded, we still had to figure out a **name and a logo**: this took us several months since we wanted to find a name that truly reflected the app’s function and purpose.  
@@ -81,7 +81,7 @@ With the launch of the first beta, we opened also Rigel’s Social Media [<u>pro
 
 <h3 class="font-sans text-primary">6. What’s next?</h3> 
 
-After few months from the launch, **we are currently working on the promotion of the app** in order to increase our user base. We haven’t kicked off a massive marketing campaign yet, since we want to test our product and refine it. We are sharing Rigel on various platforms in order to get some feedbacks from other startuppers and people who show interest in it. And, why not, to find potential investors.  
+After few months from the launch, **we are currently working on some new cool features while starting to promote the app** in order to increase our user base.   
 
 We are also **looking for colleagues**, excited as we are about Rigel’s mission, willing to join the team to boost our operations: throughout the last two years, two more people worked with us for a short period of time (which we want to personally thank for their contributions), eventually leaving the project for personal reasons.  
 
