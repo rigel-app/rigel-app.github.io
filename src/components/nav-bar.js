@@ -51,10 +51,10 @@ const NavBar = ({hideNav=false}) => {
                             {showSocialModal
                             ? <div class="origin-top-right absolute mt-2 rounded-md shadow-lg bg-darkbackg ring-1 ring-black ring-opacity-5 divide-y divide-gray-100" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
                                 <div class="py-1">
-                                    <a href="mailto:info.rigelapp@gmail.com" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Email</a>
-                                    <a href="#" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Instagram</a>
-                                    <a href="#" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Twitter</a>
-                                    <a href="#" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Facebook</a>
+                                    <a target='_blank' href="mailto:info.rigelapp@gmail.com" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Email</a>
+                                    <a target='_blank' href="https://www.instagram.com/rigelapp/" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Instagram</a>
+                                    <a target='_blank' href="https://twitter.com/AppRigel" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Twitter</a>
+                                    <a target='_blank' href="https://www.facebook.com/rigelapp/" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Facebook</a>
                                 </div>
                             </div>
                             : undefined}
@@ -106,10 +106,10 @@ const NavBar = ({hideNav=false}) => {
                         {showSocialModal
                                 ? <div class="origin-top-right absolute mt-2 rounded-md shadow-lg bg-darkbackg ring-1 ring-black ring-opacity-5 divide-y divide-gray-100" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
                                     <div class="py-1">
-                                        <a href="mailto:info.rigelapp@gmail.com" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Email</a>
-                                        <a href="#" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Instagram</a>
-                                        <a href="#" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Twitter</a>
-                                        <a href="#" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Facebook</a>
+                                        <a target='_blank' href="mailto:info.rigelapp@gmail.com" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Email</a>
+                                        <a target='_blank' href="https://www.instagram.com/rigelapp/" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Instagram</a>
+                                        <a target='_blank' href="https://twitter.com/AppRigel" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Twitter</a>
+                                        <a target='_blank' href="https://www.facebook.com/rigelapp/" class="font-sans block px-4 py-2 text-sm text-gray-100 hover:bg-primary hover:text-gray-100" role="menuitem">Facebook</a>
                                     </div>
                                 </div>
                                 : undefined}

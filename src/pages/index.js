@@ -10,11 +10,12 @@ const IndexPage = () => {
   const [showModal, setShowModal] = useState(false)
 
   return (
-    <html class="dark">
-      <div class="relative bg-white dark:bg-darkbackg overflow-y-auto w-screen h-full lg:h-screen">
-        <div class=" h-full mx-auto"> {/*max-w-7xl*/}
-          <div class="relative z-10 pb-8 h-full sm:pb-16 md:pb-20 lg:w-1/2"> {/*lg:pb-28 xl:pb-32*/}
-            {/* <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white dark:text-darkbackg transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+    <html class="dark bg-darkbackg">
+      <SEO title="Rigel - Learn Something New Every Day" />
+      <div class="bg-darkbackg h-full sm:h-screen">
+        {/* <div class=" h-full mx-auto">  */}
+        <div class="pb-8 h-full sm:pb-16 md:pb-20 lg:w-1/2"> {/*lg:pb-28 xl:pb-32*/}
+          {/* <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white dark:text-darkbackg transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
               <polygon class="" points="50,0 100,0 50,100 0,100" />
             </svg> */}
 
@@ -60,7 +61,6 @@ const IndexPage = () => {
         <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img class="w-full object-contain sm:h-72 md:h-full lg:w-full lg:h-full" src={require("../assets/icons/rigelapphome.png")} alt="" />
         </div>
-      </div>
     </html>
   )
 }
