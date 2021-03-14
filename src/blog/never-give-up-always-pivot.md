@@ -87,15 +87,7 @@ We are also **looking for colleagues**, excited as we are about Rigel’s missio
 
 But most of all, we are working every day to improve our users’ experience.  
 There’s a lot of work to be done and much more will come in the next months. 
-If you got interested in our story, keep on following us.  
-
-* [<u>rigelapp.com</u>](https://rigelapp.com/)
-* [<u>twitter</u>](https://twitter.com/AppRigel)
-* [<u>instagram</u>](https://www.instagram.com/rigelapp/)
-* [<u>facebook</u>](https://www.facebook.com/rigelapp/)
  
-Feel free to get in touch with us for anything you may want to know about Rigel and our story.
-
 Until next time, thank you!  
 
 Alberto

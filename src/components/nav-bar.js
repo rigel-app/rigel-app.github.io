@@ -47,7 +47,7 @@ const NavBar = ({hideNav=false}) => {
 
                     {/* <div ref={container}> */}
                     <a ref={container} onClick={() => setShowSocialModal(!showSocialModal)}
-                        class="font-sans font-medium text-gray-500 hover:text-gray-900 dark:text-white dark:hover:text-primary">Contacts
+                        class="font-sans font-medium text-gray-500 hover:text-gray-900 dark:text-white dark:hover:text-primary cursor-pointer">Contacts
                             {showSocialModal
                             ? <div class="origin-top-right absolute mt-2 rounded-md shadow-lg bg-darkbackg ring-1 ring-black ring-opacity-5 divide-y divide-gray-100" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
                                 <div class="py-1">
